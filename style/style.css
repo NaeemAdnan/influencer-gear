@@ -95,7 +95,7 @@ nav img {
 }
 
 /* Sponser Section */
-.sponser-section{
+.sponser-section {
     border: 2px solid tomato;
     align-items: center;
     margin-left: 165px;
@@ -104,4 +104,39 @@ nav img {
     justify-content: space-between;
     padding: 40px 62px;
     gap: 60px;
+}
+
+/* Grid Section */
+.collection {
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 1200px;
+}
+.collection-title{
+    text-align: center;
+}
+
+.card-collection {
+    border: 2px solid tomato;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+}
+
+.grid-iteam {
+    width: 329px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    margin: 14px;
+    padding: 20px;
+}
+
+.grid-iteam img {
+    width: 300px;
+    height: 256px;
+    flex-shrink: 0;
+    padding: 14px;
 }
