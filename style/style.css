@@ -34,3 +34,51 @@ nav img {
     height: 24px;
     width: 24px;
 }
+
+/* Main section */
+.influencer {
+    display: flex;
+    padding: 10px 135px 0px 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.influencer-content{
+    margin-top: 10px;
+}
+.influencer-head {
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    /* 134.615% */
+}
+
+.influencer-paragraph {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    width: 505px;
+    height: 60.9px;
+    flex-shrink: 0;
+
+}
+
+.influencer-image {
+    width: 440px;
+    height: 414px;
+    flex-shrink: 0;
+    background-image: url(../images/Circle\ design.svg);
+}
+
+.influencer-btn {
+    border-radius: 41px;
+    background: #E02C6D;
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    color: white;
+    border: none;
+    
+}
