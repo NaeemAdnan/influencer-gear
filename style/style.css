@@ -195,3 +195,13 @@ nav img {
     font-weight: 700;
     line-height: 28px;
 }
+
+/* Footer Section */
+.footer {
+    height: 150px;
+    flex-shrink: 0;
+    background: #0A0826;
+    text-align: center;
+    color: #FFF;
+    padding-top: 50px;
+}
