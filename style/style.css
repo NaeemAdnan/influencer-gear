@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+/* header section */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 120px;
+}
+
+.nav-head {
+    color: #3A3A3A;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 70px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+nav img {
+    height: 24px;
+    width: 24px;
+}
